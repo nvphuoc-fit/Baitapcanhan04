@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+      .container {
+        margin-top: 50px;
+      }
+      .card {
+        border: none;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+      }
+      .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #004085;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="card p-4">
+        <h1 class="card-title">{{title}}</h1>
+        <p class="card-text">Chào mừng bạn đến với Tic-tac-toe!</p>
+        <div class="d-flex justify-content-center gap-3">
+          <a href="/login" class="btn btn-primary">
+            <i class="fas fa-sign-in-alt"></i> Đăng nhập
+          </a>
+          <a href="/play" class="btn btn-success">
+            <i class="fas fa-gamepad"></i> Chơi game
+          </a>
+          <a href="/profile" class="btn btn-secondary">
+            <i class="fas fa-user"></i> Tài khoản của bạn
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    ></script>
+  </body>
+</html>
